@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B70979E82771046500F2CCCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70979E72771046500F2CCCE /* AppDelegate.swift */; };
+		B70979EA2771046500F2CCCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70979E92771046500F2CCCE /* SceneDelegate.swift */; };
+		B70979EC2771046500F2CCCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70979EB2771046500F2CCCE /* ViewController.swift */; };
+		B70979F42771046700F2CCCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70979F32771046700F2CCCE /* Assets.xcassets */; };
+		B70979F72771046700F2CCCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70979F52771046700F2CCCE /* LaunchScreen.storyboard */; };
+		B7097A022771046700F2CCCE /* GeoFancingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7097A012771046700F2CCCE /* GeoFancingTests.swift */; };
+		B7097A0C2771046800F2CCCE /* GeoFancingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7097A0B2771046800F2CCCE /* GeoFancingUITests.swift */; };
+		B7097A0E2771046800F2CCCE /* GeoFancingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7097A0D2771046800F2CCCE /* GeoFancingUITestsLaunchTests.swift */; };
+		B7097A1C2771052F00F2CCCE /* ViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7097A1A2771052F00F2CCCE /* ViewController.xcdatamodeld */; };
+		B7097A1E2771054F00F2CCCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7097A1D2771054F00F2CCCE /* Main.storyboard */; };
+		B7097A212771066D00F2CCCE /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7097A202771066D00F2CCCE /* CoreData.swift */; };
+		B7097A232771069100F2CCCE /* CoreDataContext+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7097A222771069100F2CCCE /* CoreDataContext+Extension.swift */; };
+		B7097A25277106B200F2CCCE /* CoreDataObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7097A24277106B200F2CCCE /* CoreDataObject+Extension.swift */; };
+		B7097A2827710B7200F2CCCE /* ExtensionNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7097A2727710B7200F2CCCE /* ExtensionNSObject.swift */; };
+		B7097A2A27710C5300F2CCCE /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7097A2927710C5300F2CCCE /* ExtensionString.swift */; };
+		B7097A2C27710D5200F2CCCE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7097A2B27710D5200F2CCCE /* Constants.swift */; };
+		B7EA69552771D7CD00DA6152 /* RecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EA69532771D7CD00DA6152 /* RecordVC.swift */; };
+		B7EA69562771D7CD00DA6152 /* RecordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7EA69542771D7CD00DA6152 /* RecordVC.xib */; };
+		B7EA695A2771D85600DA6152 /* RecordTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EA69582771D85600DA6152 /* RecordTVC.swift */; };
+		B7EA695B2771D85600DA6152 /* RecordTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7EA69592771D85600DA6152 /* RecordTVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B70979FE2771046700F2CCCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70979DC2771046500F2CCCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B70979E32771046500F2CCCE;
+			remoteInfo = GeoFancing;
+		};
+		B7097A082771046800F2CCCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70979DC2771046500F2CCCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B70979E32771046500F2CCCE;
+			remoteInfo = GeoFancing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B70979E42771046500F2CCCE /* GeoFancing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoFancing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70979E72771046500F2CCCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B70979E92771046500F2CCCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B70979EB2771046500F2CCCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B70979F32771046700F2CCCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B70979F62771046700F2CCCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B70979F82771046700F2CCCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70979FD2771046700F2CCCE /* GeoFancingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoFancingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7097A012771046700F2CCCE /* GeoFancingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoFancingTests.swift; sourceTree = "<group>"; };
+		B7097A072771046800F2CCCE /* GeoFancingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoFancingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7097A0B2771046800F2CCCE /* GeoFancingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoFancingUITests.swift; sourceTree = "<group>"; };
+		B7097A0D2771046800F2CCCE /* GeoFancingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoFancingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7097A1B2771052F00F2CCCE /* ViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViewController.xcdatamodel; sourceTree = "<group>"; };
+		B7097A1D2771054F00F2CCCE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B7097A202771066D00F2CCCE /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		B7097A222771069100F2CCCE /* CoreDataContext+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataContext+Extension.swift"; sourceTree = "<group>"; };
+		B7097A24277106B200F2CCCE /* CoreDataObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataObject+Extension.swift"; sourceTree = "<group>"; };
+		B7097A2727710B7200F2CCCE /* ExtensionNSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionNSObject.swift; sourceTree = "<group>"; };
+		B7097A2927710C5300F2CCCE /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		B7097A2B27710D5200F2CCCE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B7EA69532771D7CD00DA6152 /* RecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVC.swift; sourceTree = "<group>"; };
+		B7EA69542771D7CD00DA6152 /* RecordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordVC.xib; sourceTree = "<group>"; };
+		B7EA69582771D85600DA6152 /* RecordTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTVC.swift; sourceTree = "<group>"; };
+		B7EA69592771D85600DA6152 /* RecordTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordTVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B70979E12771046500F2CCCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70979FA2771046700F2CCCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7097A042771046800F2CCCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B70979DB2771046500F2CCCE = {
+			isa = PBXGroup;
+			children = (
+				B70979E62771046500F2CCCE /* GeoFancing */,
+				B7097A002771046700F2CCCE /* GeoFancingTests */,
+				B7097A0A2771046800F2CCCE /* GeoFancingUITests */,
+				B70979E52771046500F2CCCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B70979E52771046500F2CCCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70979E42771046500F2CCCE /* GeoFancing.app */,
+				B70979FD2771046700F2CCCE /* GeoFancingTests.xctest */,
+				B7097A072771046800F2CCCE /* GeoFancingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B70979E62771046500F2CCCE /* GeoFancing */ = {
+			isa = PBXGroup;
+			children = (
+				B70979E72771046500F2CCCE /* AppDelegate.swift */,
+				B70979E92771046500F2CCCE /* SceneDelegate.swift */,
+				B70979EB2771046500F2CCCE /* ViewController.swift */,
+				B7EA69522771D72100DA6152 /* Records */,
+				B7097A1A2771052F00F2CCCE /* ViewController.xcdatamodeld */,
+				B7097A1D2771054F00F2CCCE /* Main.storyboard */,
+				B70979F32771046700F2CCCE /* Assets.xcassets */,
+				B70979F52771046700F2CCCE /* LaunchScreen.storyboard */,
+				B70979F82771046700F2CCCE /* Info.plist */,
+				B7097A2B27710D5200F2CCCE /* Constants.swift */,
+				B7097A2627710B5D00F2CCCE /* Extension */,
+				B7097A1F2771064000F2CCCE /* core Data */,
+			);
+			path = GeoFancing;
+			sourceTree = "<group>";
+		};
+		B7097A002771046700F2CCCE /* GeoFancingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7097A012771046700F2CCCE /* GeoFancingTests.swift */,
+			);
+			path = GeoFancingTests;
+			sourceTree = "<group>";
+		};
+		B7097A0A2771046800F2CCCE /* GeoFancingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7097A0B2771046800F2CCCE /* GeoFancingUITests.swift */,
+				B7097A0D2771046800F2CCCE /* GeoFancingUITestsLaunchTests.swift */,
+			);
+			path = GeoFancingUITests;
+			sourceTree = "<group>";
+		};
+		B7097A1F2771064000F2CCCE /* core Data */ = {
+			isa = PBXGroup;
+			children = (
+				B7097A202771066D00F2CCCE /* CoreData.swift */,
+				B7097A222771069100F2CCCE /* CoreDataContext+Extension.swift */,
+				B7097A24277106B200F2CCCE /* CoreDataObject+Extension.swift */,
+			);
+			path = "core Data";
+			sourceTree = "<group>";
+		};
+		B7097A2627710B5D00F2CCCE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B7097A2727710B7200F2CCCE /* ExtensionNSObject.swift */,
+				B7097A2927710C5300F2CCCE /* ExtensionString.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B7EA69522771D72100DA6152 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				B7EA69572771D81100DA6152 /* Record Cell */,
+				B7EA69532771D7CD00DA6152 /* RecordVC.swift */,
+				B7EA69542771D7CD00DA6152 /* RecordVC.xib */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		B7EA69572771D81100DA6152 /* Record Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B7EA69582771D85600DA6152 /* RecordTVC.swift */,
+				B7EA69592771D85600DA6152 /* RecordTVC.xib */,
+			);
+			path = "Record Cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B70979E32771046500F2CCCE /* GeoFancing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7097A112771046800F2CCCE /* Build configuration list for PBXNativeTarget "GeoFancing" */;
+			buildPhases = (
+				B70979E02771046500F2CCCE /* Sources */,
+				B70979E12771046500F2CCCE /* Frameworks */,
+				B70979E22771046500F2CCCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoFancing;
+			productName = GeoFancing;
+			productReference = B70979E42771046500F2CCCE /* GeoFancing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B70979FC2771046700F2CCCE /* GeoFancingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7097A142771046800F2CCCE /* Build configuration list for PBXNativeTarget "GeoFancingTests" */;
+			buildPhases = (
+				B70979F92771046700F2CCCE /* Sources */,
+				B70979FA2771046700F2CCCE /* Frameworks */,
+				B70979FB2771046700F2CCCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B70979FF2771046700F2CCCE /* PBXTargetDependency */,
+			);
+			name = GeoFancingTests;
+			productName = GeoFancingTests;
+			productReference = B70979FD2771046700F2CCCE /* GeoFancingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7097A062771046800F2CCCE /* GeoFancingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7097A172771046800F2CCCE /* Build configuration list for PBXNativeTarget "GeoFancingUITests" */;
+			buildPhases = (
+				B7097A032771046800F2CCCE /* Sources */,
+				B7097A042771046800F2CCCE /* Frameworks */,
+				B7097A052771046800F2CCCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7097A092771046800F2CCCE /* PBXTargetDependency */,
+			);
+			name = GeoFancingUITests;
+			productName = GeoFancingUITests;
+			productReference = B7097A072771046800F2CCCE /* GeoFancingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B70979DC2771046500F2CCCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B70979E32771046500F2CCCE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B70979FC2771046700F2CCCE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B70979E32771046500F2CCCE;
+					};
+					B7097A062771046800F2CCCE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B70979E32771046500F2CCCE;
+					};
+				};
+			};
+			buildConfigurationList = B70979DF2771046500F2CCCE /* Build configuration list for PBXProject "GeoFancing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B70979DB2771046500F2CCCE;
+			productRefGroup = B70979E52771046500F2CCCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B70979E32771046500F2CCCE /* GeoFancing */,
+				B70979FC2771046700F2CCCE /* GeoFancingTests */,
+				B7097A062771046800F2CCCE /* GeoFancingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B70979E22771046500F2CCCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7097A1E2771054F00F2CCCE /* Main.storyboard in Resources */,
+				B7EA695B2771D85600DA6152 /* RecordTVC.xib in Resources */,
+				B7EA69562771D7CD00DA6152 /* RecordVC.xib in Resources */,
+				B70979F72771046700F2CCCE /* LaunchScreen.storyboard in Resources */,
+				B70979F42771046700F2CCCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70979FB2771046700F2CCCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7097A052771046800F2CCCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B70979E02771046500F2CCCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7097A2A27710C5300F2CCCE /* ExtensionString.swift in Sources */,
+				B7097A2C27710D5200F2CCCE /* Constants.swift in Sources */,
+				B7EA695A2771D85600DA6152 /* RecordTVC.swift in Sources */,
+				B7097A1C2771052F00F2CCCE /* ViewController.xcdatamodeld in Sources */,
+				B7097A232771069100F2CCCE /* CoreDataContext+Extension.swift in Sources */,
+				B7097A25277106B200F2CCCE /* CoreDataObject+Extension.swift in Sources */,
+				B70979EC2771046500F2CCCE /* ViewController.swift in Sources */,
+				B70979E82771046500F2CCCE /* AppDelegate.swift in Sources */,
+				B7097A2827710B7200F2CCCE /* ExtensionNSObject.swift in Sources */,
+				B7097A212771066D00F2CCCE /* CoreData.swift in Sources */,
+				B70979EA2771046500F2CCCE /* SceneDelegate.swift in Sources */,
+				B7EA69552771D7CD00DA6152 /* RecordVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70979F92771046700F2CCCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7097A022771046700F2CCCE /* GeoFancingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7097A032771046800F2CCCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7097A0C2771046800F2CCCE /* GeoFancingUITests.swift in Sources */,
+				B7097A0E2771046800F2CCCE /* GeoFancingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B70979FF2771046700F2CCCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B70979E32771046500F2CCCE /* GeoFancing */;
+			targetProxy = B70979FE2771046700F2CCCE /* PBXContainerItemProxy */;
+		};
+		B7097A092771046800F2CCCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B70979E32771046500F2CCCE /* GeoFancing */;
+			targetProxy = B7097A082771046800F2CCCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B70979F52771046700F2CCCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B70979F62771046700F2CCCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7097A0F2771046800F2CCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7097A102771046800F2CCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7097A122771046800F2CCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoFancing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geo.GeoFancing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7097A132771046800F2CCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoFancing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geo.GeoFancing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7097A152771046800F2CCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geo.GeoFancingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoFancing.app/GeoFancing";
+			};
+			name = Debug;
+		};
+		B7097A162771046800F2CCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geo.GeoFancingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoFancing.app/GeoFancing";
+			};
+			name = Release;
+		};
+		B7097A182771046800F2CCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geo.GeoFancingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoFancing;
+			};
+			name = Debug;
+		};
+		B7097A192771046800F2CCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geo.GeoFancingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoFancing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B70979DF2771046500F2CCCE /* Build configuration list for PBXProject "GeoFancing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7097A0F2771046800F2CCCE /* Debug */,
+				B7097A102771046800F2CCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7097A112771046800F2CCCE /* Build configuration list for PBXNativeTarget "GeoFancing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7097A122771046800F2CCCE /* Debug */,
+				B7097A132771046800F2CCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7097A142771046800F2CCCE /* Build configuration list for PBXNativeTarget "GeoFancingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7097A152771046800F2CCCE /* Debug */,
+				B7097A162771046800F2CCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7097A172771046800F2CCCE /* Build configuration list for PBXNativeTarget "GeoFancingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7097A182771046800F2CCCE /* Debug */,
+				B7097A192771046800F2CCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7097A1A2771052F00F2CCCE /* ViewController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7097A1B2771052F00F2CCCE /* ViewController.xcdatamodel */,
+			);
+			currentVersion = B7097A1B2771052F00F2CCCE /* ViewController.xcdatamodel */;
+			path = ViewController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B70979DC2771046500F2CCCE /* Project object */;
+}
